@@ -162,12 +162,29 @@ body {
 
 .footer {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
-	gap: 1.31rem;
 	background-color: #a93d31;
 	padding: 1.63rem 2.25rem;
 	font-size: 1.13rem;
 	font-weight: 700;
+}
+
+.footer-left {
+	display: flex;
+	align-items: center;
+	gap: 1.31rem;
+}
+
+.footer-center {
+	display: flex;
+	justify-content: center;
+	flex: 1;
+}
+
+.footer-right {
+	display: flex;
+	justify-content: flex-end;
 }
 
 .footer-img {
@@ -187,7 +204,6 @@ body {
 .footer-linkedin {
 	width: 2rem;
 	height: 2rem;
-	margin-left: auto;
 }
 
 .footer-email {
