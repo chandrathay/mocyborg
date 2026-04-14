@@ -1,0 +1,264 @@
+body {
+	container: body / inline-size;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	font-family: 'Microsoft YaHei UI';
+	line-height: 1.177;
+	background-color: #fff;
+	overflow: auto;
+}
+
+.header {
+	container: header / inline-size;
+	display: flex;
+	align-items: flex-start;
+	gap: 1.31rem;
+	font-size: 1.13rem;
+	font-family: 'Microsoft YaHei UI';
+	font-weight: 700;
+	line-height: 1.437;
+	letter-spacing: -0.033rem;
+	background-color: #a93d31;
+	padding: 1.63rem 2.25rem 1.63rem 3.94rem;
+}
+
+.header-img {
+	flex-shrink: 0;
+}
+
+.header-img1 {
+	width: 3.56rem;
+}
+
+.header-mocyborg {
+	margin-top: 0.81rem;
+	width: 15.88rem;
+}
+
+.header-logo {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.81rem;
+	text-decoration: none;
+}
+
+.nav-bar {
+	margin-left: auto; margin-top: 1.06rem;
+	display: flex;
+	align-items: flex-start;
+	gap: 3.13rem;
+	padding-left: 0.5rem;
+	padding-right: 0.69rem;
+}
+
+.nav-links {
+	text-align: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: inherit;
+}
+
+.nav-links li {
+	list-style: none;
+}
+
+.nav-links a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.col1 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 3.13rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 28.5rem 3.69rem 5.75rem 3.69rem;
+}
+
+.mocyborg-title {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-left: 0.25rem;
+	width: 100%;
+	max-width: 65.19rem;
+	min-height: 15.31rem;
+	flex-shrink: 0;
+	--min-font-size: 2.13; --max-font-size: 4; font-size: var(--interpolate);
+	font-weight: 600;
+	letter-spacing: -0.119rem;
+}
+
+.contact-us {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.88rem;
+	font-size: 2.25rem;
+	font-weight: 400;
+	letter-spacing: -0.067rem;
+	padding-left: 0.25rem;
+}
+
+.link-contact-us {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: -0.56rem;
+	text-decoration: underline;
+	text-align: left;
+}
+
+.btn {
+	margin: -2rem -3.69rem -1.38rem 0;
+	width: 5.94rem;
+	flex-shrink: 0;
+}
+
+.col2 {
+	margin-top: -0.06rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2.69rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 38.25rem 3.88rem 5.13rem 3.88rem;
+}
+
+.row-top {
+	width: 100%;
+	max-width: 19.31rem;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	align-self: start;
+	--min-font-size: 2.13; --max-font-size: 4; font-size: var(--interpolate);
+	font-weight: 600;
+	letter-spacing: -0.119rem;
+}
+
+.vision-title {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: -1.06rem; margin-bottom: -1rem;
+	min-height: 5.56rem;
+	text-align: left;
+}
+
+.sub-text-red {
+	display: inline-block;
+	width: 0.94rem; height: 0.94rem;
+	background-color: #eb3223;
+	border-radius: 50%;
+	margin-left: 0.25rem;
+	vertical-align: middle;
+}
+
+.vision-desc {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin: 0 0.06rem;
+	--min-font-size: 1.31; --max-font-size: 2.25; font-size: var(--interpolate);
+	font-weight: 400;
+	letter-spacing: -0.067rem;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	gap: 1.31rem;
+	background-color: #a93d31;
+	padding: 1.63rem 2.25rem;
+	font-size: 1.13rem;
+	font-weight: 700;
+}
+
+.footer-img {
+	flex-shrink: 0;
+	width: auto;
+	height: auto;
+}
+
+.footer-mocyborg {
+	width: 15.88rem;
+}
+
+.footer-logo {
+	width: 3.56rem;
+}
+
+.footer-linkedin {
+	width: 2rem;
+	height: 2rem;
+	margin-left: auto;
+}
+
+.footer-email {
+	width: 2rem;
+	height: 2rem;
+}
+
+.footer-subtitle {
+	text-align: left;
+	font-size: 0.88rem;
+	font-weight: 400;
+	margin: 0;
+}
+
+
+
+/** breakpoints (margin / paddings) **/
+
+@media screen and (max-width: 1280px) {
+	.header {
+		padding-inline: var(--margin-sm);
+	}
+	.header-menu {
+		padding-inline: 0;
+	}
+	.col1, .col2 {
+		padding-inline: var(--margin-md);
+	}
+	.title-mocyborg-is {
+		margin-inline: 0;
+	}
+	.col-bottom {
+		padding-inline: var(--margin-md);
+	}
+	.vision-desc {
+		margin-inline: 0;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.col1, .col2 {
+		padding-inline: var(--margin-sm);
+	}
+	.col-bottom {
+		padding-inline: var(--margin-sm);
+	}
+}
+
+
+
+/* container queries (flex rows) */
+
+@container body (width < 1020px) {
+	.header {
+		flex-direction: column;
+		align-items: center;
+		gap: 0.88rem;
+	}
+	.header > * {
+		margin-left: unset !important; margin-top: unset !important;
+		text-align: center;
+	}
+}
+
+@container header (width < 568px) {
+	.header-menu {
+		flex-direction: column;
+		align-items: center;
+		gap: 0.81rem;
+	}
+	.header-menu > * {
+		text-align: center;
+	}
+}
