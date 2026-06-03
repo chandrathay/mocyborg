@@ -1,0 +1,17 @@
+<svg width="108" height="108" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="107.44" height="107.44" rx="10" fill="white" fill-opacity="0.7"/>
+<rect width="107.44" height="107.44" rx="10" fill="#A93D31" fill-opacity="0.7"/>
+<path d="M42.1562 17.8542H55.1563" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<path d="M27.1562 25.3542C27.5562 16.1542 34.3228 12.5209 37.6562 11.8542H63.6561C71.2561 11.8542 74.1561 19.8542 74.6561 23.8542V83.3542C74.6561 92.9542 67.3228 95.6876 63.6561 95.8542H37.6562C29.6562 95.8542 27.3228 87.5209 27.1562 83.3542C26.9895 67.8542 26.7562 34.5542 27.1562 25.3542Z" stroke="white" stroke-width="4"/>
+<circle cx="50.1562" cy="85.8542" r="4" stroke="white" stroke-width="2"/>
+<circle cx="58.1562" cy="17.8542" r="1.5" fill="white" stroke="white"/>
+<rect x="35.6562" y="28.3542" width="31" height="13" fill="#D9D9D9" stroke="white"/>
+<rect x="35.6562" y="46.3542" width="4" height="18" fill="#D9D9D9" stroke="white"/>
+<rect x="42.6562" y="56.3542" width="4" height="8" fill="#D9D9D9" stroke="white"/>
+<rect x="48.6562" y="52.3542" width="4" height="12" fill="#D9D9D9" stroke="white"/>
+<rect x="55.6562" y="51.3542" width="4" height="13" fill="#D9D9D9" stroke="white"/>
+<rect x="62.6562" y="61.3542" width="4" height="3" fill="#D9D9D9" stroke="white"/>
+<path d="M34.1562 75.3542C35.3229 75.0209 37.9562 74.3542 39.1562 74.3542C40.6562 74.3542 43.6562 75.3542 45.1562 75.3542C46.0702 75.3542 48.4689 74.055 50.6562 73.0397M67.1562 73.3542C66.6896 73.3542 64.4811 73.7897 62.1562 73.8479M50.6562 73.0397C52.059 72.3886 53.3748 71.8542 54.1562 71.8542C54.7483 71.8542 55.4279 72.0295 56.1562 72.2762M50.6562 73.0397V76.8542M56.1562 72.2762C57.8885 72.863 59.8963 73.8542 61.6562 73.8542C61.8231 73.8542 61.99 73.852 62.1562 73.8479M56.1562 72.2762V77.3542M62.1562 73.8479V77.3542M67.6562 72.8542V77.3542" stroke="white" stroke-linecap="square"/>
+<path d="M44.6562 75.3542V76.3542" stroke="white" stroke-linecap="round"/>
+<path d="M39.6562 74.3542V76.8542" stroke="white" stroke-linecap="round"/>
+</svg>
